@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'pp'
+require 'rubygems'
+require 'rsync_tools'
 
-pp ARGV
+ap ARGV
