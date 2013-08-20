@@ -1,7 +1,11 @@
 module RsyncTools
   class Wrapper
-    def initialize
-      puts "it worked!"
+    def initialize(args)
+      run args
+    end
+
+    def run(args)
+      puts "rsync #{args}"
     end
   end
 end

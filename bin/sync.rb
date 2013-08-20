@@ -3,4 +3,4 @@
 require 'rubygems'
 require 'rsync_tools'
 
-ap ARGV
+rsync = RsyncTools::Wrapper.new("-v")
